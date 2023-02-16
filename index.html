@@ -7,6 +7,7 @@
   <meta name="theme-color" content="#000000" />
   <title>Animated </title>
   <!-- Font Awesome -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
   <!-- Tailwind Library -->
   <link rel="stylesheet"
@@ -23,7 +24,7 @@
         <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
           href="https://www.creative-tim.com/learning-lab/tailwindcss-starter-project#/presentation">
           <!-- Nav Title -->
-          Creative Tim
+          Creative Ravi
         </a>
         <!-- Hamburger Menu (Mobile) -->
         <button
@@ -73,7 +74,7 @@
     <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
       <!-- Background Image -->
       <div class="absolute top-0 w-full h-full bg-center bg-cover"
-        style="background: url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat center top;">
+        style="background: url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat center top/cover;">
         <!-- Overlay -->
         <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
       </div>
@@ -82,10 +83,10 @@
         <div class="items-center flex flex-wrap">
           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <div class="pr-12">
-              <h1 class="text-white font-semibold text-5xl">
+              <h1 data-aos="fade-up" class="text-white font-semibold text-5xl">
                 Welcome your epiphany.
               </h1>
-              <p class="mt-4 text-lg text-gray-300">
+              <p class="mt-4 text-lg text-gray-300" data-aos="fade-right" data-aos-delay="1000">
                 Lorem ipsum dolor sit. Eum totam aspernatur aliquam praesentium aperiam magni, dignissimos, atque
                 incidunt fuga nulla distinctio eligendi enim placeat nesciunt, soluta maxime nihil ipsa minus!
               </p>
@@ -110,7 +111,7 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
           <!-- Card -->
-          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+          <div data-aos="fade-right" data-aos-delay="1200" class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div
@@ -128,7 +129,7 @@
             </div>
           </div>
           <!-- Card -->
-          <div class="w-full md:w-4/12 px-4 text-center">
+          <div data-aos="fade-up" data-aos-delay="1400" class="w-full md:w-4/12 px-4 text-center">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div
@@ -146,7 +147,7 @@
             </div>
           </div>
           <!-- Card -->
-          <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+          <div data-aos="fade-left" data-aos-delay="1600" class="pt-6 w-full md:w-4/12 px-4 text-center">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div
@@ -168,7 +169,7 @@
         <!-- Text Box and Card Container -->
         <div class="flex flex-wrap items-center mt-32">
           <!-- Text Box Container -->
-          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+          <div data-aos="zoom-in-right" class="w-full md:w-5/12 px-4 mr-auto ml-auto">
             <!-- Text Box -->
             <div
               class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
@@ -192,7 +193,7 @@
           </div>
 
           <!-- Image Cap & Text Card -->
-          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+          <div data-aos="flip-left" data-aos-delay="1000" class="w-full md:w-4/12 px-4 mr-auto ml-auto">
             <div
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-orange-500">
               <!-- Image -->
@@ -233,13 +234,13 @@
       <!-- Section Container -->
       <div class="container mx-auto px-4">
         <div class="items-center flex flex-wrap">
-          <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="flip-right" data-aos-delay="1000">
             <!-- Image -->
             <img alt="..." class="max-w-full rounded-lg shadow-lg"
               src="https://images.unsplash.com/photo-1553678324-f84674bd7b24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" />
           </div>
           <!-- Text Box Container-->
-          <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="zoom-in-left">
             <div class="md:pr-12">
               <div
                 class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
@@ -325,10 +326,11 @@
         <!-- Flex Row Container -->
         <div class="flex flex-wrap">
           <!-- Item -->
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in">
             <div class="px-6">
               <!-- Image -->
-              <img alt="..." src="" class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
+              <img alt="..." src="https://randomuser.me/api/portraits/lego/1.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Ryan Thompson</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
@@ -356,10 +358,11 @@
             </div>
           </div>
           <!-- Item -->
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in" data-aos-delay="400">
             <div class="px-6">
               <!-- Image -->
-              <img alt="..." src="" class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
+              <img alt="..." src="https://randomuser.me/api/portraits/lego/7.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Romina Hadid</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
@@ -382,10 +385,11 @@
             </div>
           </div>
           <!-- Item -->
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in" data-aos-delay="600">
             <div class="px-6">
               <!-- Image -->
-              <img alt="..." src="" class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
+              <img alt="..." src="https://randomuser.me/api/portraits/lego/6.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Alexa Smith</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
@@ -413,10 +417,11 @@
             </div>
           </div>
           <!-- Item -->
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in" data-aos-delay="800">
             <div class="px-6">
               <!-- Image -->
-              <img alt="..." src="" class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
+              <img alt="..." src="https://randomuser.me/api/portraits/lego/0.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Jenna Kardi</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
@@ -479,7 +484,7 @@
         <!-- Flex Row Container -->
         <div class="flex flex-wrap mt-12 justify-center">
           <!-- Item -->
-          <div class="w-full lg:w-3/12 px-4 text-center">
+          <div class="w-full lg:w-3/12 px-4 text-center" data-aos="fade-in" data-aos-delay="600">
             <div
               class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
               <!-- Icon -->
@@ -495,7 +500,7 @@
             </p>
           </div>
           <!-- Item -->
-          <div class="w-full lg:w-3/12 px-4 text-center">
+          <div class="w-full lg:w-3/12 px-4 text-center" data-aos="fade-in" data-aos-delay="400">
             <div
               class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
               <!-- Icon -->
@@ -511,7 +516,7 @@
             </p>
           </div>
           <!-- Item -->
-          <div class="w-full lg:w-3/12 px-4 text-center">
+          <div class="w-full lg:w-3/12 px-4 text-center" data-aos="fade-in" data-aos-delay="200">
             <div
               class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
               <!-- Icon -->
@@ -530,7 +535,7 @@
     <!-- Contact Form -->
     <section class="relative block py-24 lg:pt-0 bg-gray-900">
       <!-- Container -->
-      <div class="container mx-auto px-4">
+      <div class="container mx-auto px-4" data-aos="fade-in">
         <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
           <div class="w-full lg:w-6/12 px-4">
             <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
@@ -677,7 +682,16 @@
   <!-- End of Footer Section -->
 </body>
 <!-- Navigation Script -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
+  AOS.init({
+    delay: 200, // values from 0 to 3000, with step 50ms
+    duration: 1500, // values from 0 to 3000, with step 50ms
+    once: false, // whether animation should happen only once - while scrolling down
+    mirror: false, // whether elements should animate out while scrolling past them
+  });
+
   function toggleNavbar(collapseID) {
     document.getElementById(collapseID).classList.toggle("hidden");
     document.getElementById(collapseID).classList.toggle("block");
